@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://raw.githubusercontent.com/Rocketseat/bootcamp-launchbase-desafios-02/master/desafios/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles.css">
+    <link rel="" href="component.html">
     <title>Rocketseat</title>
 </head>
 <body>
@@ -19,24 +20,33 @@
     </header>
 
     <section class="content">
-        <div class="card">
+        <div class="card starter">
             <span class="span curso1">01</span>
-            <img src="https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg" alt="logotipo e título" class="card__logo">
+            <img src="./assets/images/starter.png" alt="logotipo e título" class="card__logo">
             <p class="card__">Torne-se um programador desejado no mercado com esses cursos gratuitos</p>
         </div>
 
-        <div class="card">
+        <div class="card lauchBase">
             <span class="span curso2">02</span>
-            <img src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg" alt="logotipo e título" class="card__logo">
+            <img src="./assets/images/lauchBase.png" alt="logotipo e título" class="card__logo">
             <p class="card__">Domine programação do zero e tenha acesso às melhores oportunidades do mercado</p>
         </div>
 
-        <div class="card">
+        <div class="card goStack">
             <span class="span curso3">03</span>
-            <img src="https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg" alt="logotipo e título" class="card__logo">
+            <img src="./assets/images/goStack.png" alt="logotipo e título" class="card__logo">
             <p class="card__">Treinamento imersivo nas tecnologias mais modernas de desenvolvimento web e mobile</p>
+            
         </div>
     </section>
+
+    <div class="modalOverlay">
+        <div class="modal"></div>
+        <!-- <a class="close_modal" href="">
+            <i class="material-icons">close</i>
+        </a> -->
+    </div>
     
+    <script src="./scripts.js"></script>
 </body>
 </html>
