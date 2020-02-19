@@ -1,0 +1,104 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap";
+
+:root{
+    --color-primary: #7159c1ff;
+    --gray: #dadada9e;
+    --white: #ffffffff;
+    --dark: #484537ff;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    padding: 30px;
+    background-color: var(--color-primary);
+    text-align: center;
+
+}
+
+header div a {
+    margin: 30px;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header div a:hover {
+    color:  var(--gray);
+    transition: 500ms;
+}
+
+.logo-description {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primary);
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.description {
+    margin: auto;
+    max-width: 350px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.list-tecnologies ul {
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.list-tecnologies ul li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: var(--dark);
+    border-radius: 5px;
+    background-color: var(--gray);
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;;
+}
+
+.links {
+    text-align: center;
+    margin: 30px;
+}
+
+.links a {
+    margin: 5px;
+    padding: 5px;;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: var(--dark);
+    border-bottom-width: 2px ;
+    border-bottom-style: solid ;
+    border-bottom-color: var(--gray);
+}
+
+.links a:hover {
+    color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
+    transition: 700ms;
+}
