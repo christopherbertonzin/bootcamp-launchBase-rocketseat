@@ -34,9 +34,9 @@
 
 ## :rocket: Desafios
 
-- [Primeiro HTML](desafio-2-1-primeiro-html/README.md)
-- [Página de descrição](desafio-2-2-pagina-descricao/README.md)
-- [Página de cursos e iframe](desafio-2-3-pagina-cursos-iframe/README.md)
+- [Primeiro HTML](desafio-2-1-primeiro-html/)
+- [Página de descrição](desafio-2-2-pagina-descricao/)
+- [Página de cursos e iframe](desafio-2-3-pagina-cursos-iframe/)
 - [Construindo Foodfy]()
 
 ## :calendar: Entrega
