@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://raw.githubusercontent.com/Rocketseat/bootcamp-launchbase-desafios-02/master/desafios/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles.css">
-    <link rel="" href="component.html">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <title>Rocketseat</title>
 </head>
 <body>
@@ -20,32 +21,46 @@
     </header>
 
     <section class="content">
-        <div class="card starter">
+        <div class="card starter" id="starter">
             <span class="span curso1">01</span>
             <img src="./assets/images/starter.png" alt="logotipo e título" class="card__logo">
             <p class="card__"><strong>Torne-se um programador desejado</strong> no mercado com esses cursos gratuitos</p>
+            <div class="info_card ">
+                <p class="card_price card_price_starter">Grátis</p>
+                <p class="card_modules">7 Módulos</p>
+            </div>
         </div>
 
-        <div class="card lauchBase">
+        <div class="card lauchBase" id='launchbase'>
             <span class="span curso2">02</span>
             <img src="./assets/images/lauchBase.png" alt="logotipo e título" class="card__logo">
             <p class="card__"><strong>Domine programação do zero</strong> e tenha acesso às melhores oportunidades do mercado</p>
+            <div class="info_card">
+                <p class="card_price card_price_lauchBase">Pago</p>
+                <p class="card_modules">5 Módulos</p>
+            </div>
         </div>
 
-        <div class="card goStack">
+        <div class="card goStack" id="gostack">
             <span class="span curso3">03</span>
             <img src="./assets/images/goStack.png" alt="logotipo e título" class="card__logo">
             <p class="card__"><strong>Treinamento imersivo</strong> nas tecnologias mais modernas de desenvolvimento web e mobile</p>
-            
+            <div class="info_card">
+                <p class="card_price card_price_goStack">Pago</p>
+                <p class="card_modules">7 Módulos</p>
+            </div>
         </div>
     </section>
 
-    <!-- <div class="modalOverlay">
+    <div class="modalOverlay ">
         <div class="modal">
-
+            <a class="close_modal">
+                <i class="material-icons">close</i>
+            </a>
+            <iframe src="" frameborder="0"></iframe>
         </div>
-    </div> -->
+    </div>
     
-    <script src="./scripts.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
