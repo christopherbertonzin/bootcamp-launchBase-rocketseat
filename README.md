@@ -1,2 +1,2 @@
-# bootcamp-launchBase-rocketseat
-Desafios e projetos do Bootcamp.
+## bootcamp-launchBase-rocketseat
+Desafios do Bootcamp.
