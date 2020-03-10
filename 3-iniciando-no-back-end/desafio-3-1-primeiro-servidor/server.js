@@ -20,3 +20,6 @@ server.get('/', (req, res) => res.render('layout'))
 server.get('/about', (req, res) => res.render('about'))
 server.get('/courses', (req, res) => res.render('courses'))
 
+server.use((req, res) => {
+    res.status(404).render('not-found')
+})
