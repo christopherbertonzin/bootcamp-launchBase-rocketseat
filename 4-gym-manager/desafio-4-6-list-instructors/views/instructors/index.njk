@@ -1,0 +1,29 @@
+{% extends 'layout.njk' %}
+
+{% block content %}
+    <div class=" card table--container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Intructor</th>
+                    <th>Acompanhamentos</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for instructor in instructors%}
+                <tr>
+                    <td><span class="avatar--list" style="background: url({{ instructor.avatar_url}}) center center"></span>{{ instructor.name }}</td>
+                    <td>
+                        {% for service in instructor.services %}
+                            <span class="services">{{ service }}</span>
+                        {% endfor %}
+                    </td>
+                    <td><a class="btn btn--ver"href="instructors/{{ instructor.id }}">ver</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock content %}
